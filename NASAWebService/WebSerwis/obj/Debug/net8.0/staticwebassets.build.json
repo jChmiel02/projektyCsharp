@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "QDcrtN7GJyBLfSloHfohLmBMdAEblg+LkjQZMvbb8nM=",
+  "Source": "NASAWebService",
+  "BasePath": "_content/NASAWebService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "ContainingType": "NASAWebService.Controllers.ApodController",
+    "Method": "GetApod",
+    "RelativePath": "api/apod",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NASAWebService.Controllers.OsdrController",
+    "Method": "GetMissionDetails",
+    "RelativePath": "api/osdr/mission",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "url",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NASAWebService.Controllers.OsdrController",
+    "Method": "GetVehicle",
+    "RelativePath": "api/osdr/vehicle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "url",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NASAWebService.Controllers.OsdrController",
+    "Method": "GetVehicles",
+    "RelativePath": "api/osdr/vehicles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NASAWebService.Controllers.SatelliteController",
+    "Method": "GetSatelliteDetails",
+    "RelativePath": "api/satellite/{satelliteName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "satelliteName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NASAWebService.Controllers.SatelliteController",
+    "Method": "GetSatelliteNames",
+    "RelativePath": "api/satellite/names",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NASAWebService.Controllers.SatelliteController",
+    "Method": "CheckToken",
+    "RelativePath": "api/satellite/validate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NASAWebService.Controllers.SystemController",
+    "Method": "GetStatus",
+    "RelativePath": "api/system/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NASAWebService.Controllers.SystemController",
+    "Method": "GetVersion",
+    "RelativePath": "api/system/version",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

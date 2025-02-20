@@ -1,0 +1,161 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "NASA Web Service API",
+    "description": "API integrujące usługi NASA.",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/apod": {
+      "get": {
+        "tags": [
+          "Apod"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/osdr/vehicles": {
+      "get": {
+        "tags": [
+          "Osdr"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/osdr/vehicle": {
+      "get": {
+        "tags": [
+          "Osdr"
+        ],
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/osdr/mission": {
+      "get": {
+        "tags": [
+          "Osdr"
+        ],
+        "parameters": [
+          {
+            "name": "url",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/satellite/names": {
+      "get": {
+        "tags": [
+          "Satellite"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/satellite/{satelliteName}": {
+      "get": {
+        "tags": [
+          "Satellite"
+        ],
+        "parameters": [
+          {
+            "name": "satelliteName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/satellite/validate": {
+      "get": {
+        "tags": [
+          "Satellite"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/system/status": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/system/version": {
+      "get": {
+        "tags": [
+          "System"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "ClientToken": {
+        "type": "apiKey",
+        "description": "Wprowadź token autoryzacyjny.",
+        "name": "Client-Token",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "ClientToken": [ ]
+    }
+  ]
+}
