@@ -1,0 +1,11 @@
+D:\visualStudioProject\Blog2024\Blog2024.Library\bin\Debug\net8.0-windows\Blog2024.Library.deps.json
+D:\visualStudioProject\Blog2024\Blog2024.Library\bin\Debug\net8.0-windows\Blog2024.Library.dll
+D:\visualStudioProject\Blog2024\Blog2024.Library\bin\Debug\net8.0-windows\Blog2024.Library.pdb
+D:\visualStudioProject\Blog2024\Blog2024.Library\obj\Debug\net8.0-windows\Blog2024.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\visualStudioProject\Blog2024\Blog2024.Library\obj\Debug\net8.0-windows\Blog2024.Library.AssemblyInfoInputs.cache
+D:\visualStudioProject\Blog2024\Blog2024.Library\obj\Debug\net8.0-windows\Blog2024.Library.AssemblyInfo.cs
+D:\visualStudioProject\Blog2024\Blog2024.Library\obj\Debug\net8.0-windows\Blog2024.Library.csproj.CoreCompileInputs.cache
+D:\visualStudioProject\Blog2024\Blog2024.Library\obj\Debug\net8.0-windows\Blog2024.Library.dll
+D:\visualStudioProject\Blog2024\Blog2024.Library\obj\Debug\net8.0-windows\refint\Blog2024.Library.dll
+D:\visualStudioProject\Blog2024\Blog2024.Library\obj\Debug\net8.0-windows\Blog2024.Library.pdb
+D:\visualStudioProject\Blog2024\Blog2024.Library\obj\Debug\net8.0-windows\ref\Blog2024.Library.dll
